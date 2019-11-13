@@ -1,46 +1,61 @@
-# Hugo template for Netlify CMS with Netlify Identity
+[![Build Status](https://travis-ci.org/akveo/ngx-admin.svg?branch=master)](https://travis-ci.org/akveo/ngx-admin)
+[![Join the chat at https://gitter.im/ng2-admin/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ng2-admin/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Dependency Status](https://david-dm.org/akveo/ngx-admin/status.svg)](https://david-dm.org/akveo/ng2-admin)
+# Admin template based on Angular 4+, Bootstrap 4 and <a href="https://github.com/akveo/nebular">Nebular</a>
+<a target="_blank" href="http://akveo.com/ngx-admin/"><img src="https://i.imgur.com/XoJtfvK.gif"/></a>
 
-This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
+### What's included:
 
-## Getting started
+- Angular 4+ & Typescript
+- Bootstrap 4+ & SCSS
+- Responsive layout
+- High resolution
+- Flexibly configurable themes with **hot-reload** (2 themes included)
+- Authentication module with multiple providers
+- Lots of awesome features:
+  - Buttons
+  - Modals
+  - Icons
+  - Typography
+  - Animated searches
+  - Forms
+  - Tabs
+  - Notifications
+  - Tables
+  - Maps
+  - Charts
+  - Editors
+  
+And many more!
 
-Use our deploy button to get your own copy of the repository. 
+### Demo
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
+<a target="_blank" href="http://akveo.com/ngx-admin/">Live Demo</a>
 
-This will setup everything needed for running the CMS:
+### ng2-admin
+We will continue supporting ng2-admin version, but if you are starting from scratch we recommend using ngx-admin version. Unfortunately, there is no way to update from ng2-admin to ngx-admin, but some parts (Nebular components) could be manually included.
 
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
+### Angular 1.x version
+Here you can find Angular 1.x based version: [Blur Admin](http://akveo.github.io/blur-admin/)
+ 
+## Documentation
+This template is using [Nebular](https://github.com/akveo/nebular) modules set, documentation and other useful articles could be found [here](https://akveo.github.io/nebular/#/docs/installation/based-on-starter-kit-ngxadmin).
 
-Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
 
-Now you're all set, and you can start editing content!
+## BrowserStack
+This project runs its tests on multiple desktop and mobile browsers using [BrowserStack](http://www.browserstack.com).
 
-## Local Development
+<img src="https://cloud.githubusercontent.com/assets/131406/22254249/534d889e-e254-11e6-8427-a759fb23b7bd.png" height="40" />
 
-Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
+### How can I support developers?
+- Star our GitHub repo :star:
+- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
+- Follow us on [Twitter](https://twitter.com/akveo_inc) :feet:
+- Like our page on [Facebook](https://www.facebook.com/akveo/) :thumbsup:
 
-Then start the development server with `yarn start` or `npm start`.
+### Looking for engineering services? 
+Visit [our homepage](http://akveo.com/) or simply leave us a message to [contact@akveo.com](mailto:contact@akveo.com). We will be happy to work with you!
 
-## Layouts
-
-The template is based on small, content-agnostic partials that can be mixed and matched. The pre-built pages showcase just a few of the possible combinations. Refer to the `site/layouts/partials` folder for all available partials.
-
-Use Hugo’s `dict` functionality to feed content into partials and avoid repeating yourself and creating discrepancies.
-
-## CSS
-
-The template uses a custom fork of Tachyons and PostCSS with cssnext and cssnano. To customize the template for your brand, refer to `src/css/imports/_variables.css` where most of the important global variables like colors and spacing are stored.
-
-## SVG
-
-All SVG icons stored in `site/static/img/icons` are automatically optimized with SVGO (gulp-svgmin) and concatenated into a single SVG sprite stored as a a partial called `svg.html`. Make sure you use consistent icons in terms of viewport and art direction for optimal results. Refer to an SVG via the `<use>` tag like so:
-
-```
-<svg width="16px" height="16px" class="db">
-  <use xlink:href="#SVG-ID"></use>
-</svg>
-```
+### From Akveo
+Made with :heart: by [Akveo team](http://akveo.com/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get the latest news first!
+We're always happy to receive your feedback!
